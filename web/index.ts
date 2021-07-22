@@ -150,7 +150,7 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-  { text: "Logo", value: "https://builtoncardano.com/images/logo.svg" },
+  { text: "Logo", value: logo },
   { text: "OG", value: "https://builtoncardano.com/images/og.png" },
   {
     text: "Hyper",
