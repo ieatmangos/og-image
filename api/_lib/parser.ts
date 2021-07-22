@@ -57,7 +57,7 @@ function getDefaultImages(images: string[], theme: Theme): string[] {
   const defaultImage =
     theme === "light"
       ? "https://builtoncardano.com/static/images/og.png"
-      : "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg";
+      : "https://builtoncardano.com/static/images/logo.svg";
 
   if (!images || !images[0]) {
     return [defaultImage];
