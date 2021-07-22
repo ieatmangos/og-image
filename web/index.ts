@@ -1,4 +1,6 @@
 import { ParsedRequest, Theme, FileType } from "../api/_lib/types";
+import logo from "../public/logo.svg";
+
 const { H, R, copee } = window as any;
 let timeout = -1;
 
@@ -148,7 +150,7 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-  { text: "Logo", value: "https://builtoncardano.com/static/logo.svg" },
+  { text: "Logo", value: logo },
   { text: "OG", value: "https://builtoncardano.com/static/images/og.png" },
   {
     text: "Hyper",
