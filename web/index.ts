@@ -1,5 +1,5 @@
 import { ParsedRequest, Theme, FileType } from "../api/_lib/types";
-import logo from "../public/logo.svg";
+// import logo from "./logo.svg";
 
 const { H, R, copee } = window as any;
 let timeout = -1;
@@ -150,7 +150,11 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-  { text: "Logo", value: logo },
+  {
+    text: "Cardacity",
+    value:
+      "https://firebasestorage.googleapis.com/v0/b/builtoncardano.appspot.com/o/uploads%2Fcardacity%2F1627395765676.png?alt=media&token=4f0063cb-58a7-47f7-85fe-c9905402b5e9",
+  },
   { text: "OG", value: "https://builtoncardano.com/images/og.png" },
   { text: "logo2", value: "https://builtoncardano.com/images/logo.svg" },
   {
